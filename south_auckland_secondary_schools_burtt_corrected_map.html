@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_2b0948805ed3b83375437ed903293667 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_2b0948805ed3b83375437ed903293667" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_2b0948805ed3b83375437ed903293667 = L.map(
+                "map_2b0948805ed3b83375437ed903293667",
+                {
+                    center: [-37.2, 174.9],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 11,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_d12c1109296fa615e2f29fd6976f224d = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_2b0948805ed3b83375437ed903293667);
+        
+    
+            var marker_fcc40a331fb856ec8a46a85b70b7fe9b = L.marker(
+                [-37.2475, 174.7252],
+                {}
+            ).addTo(map_2b0948805ed3b83375437ed903293667);
+        
+    
+        var popup_04a12730db3f8d9099b4284fb97e4d71 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f2e72b40eb7d34e11cfc6ec7b6dade13 = $(`<div id="html_f2e72b40eb7d34e11cfc6ec7b6dade13" style="width: 100.0%; height: 100.0%;">Waiuku College</div>`)[0];
+            popup_04a12730db3f8d9099b4284fb97e4d71.setContent(html_f2e72b40eb7d34e11cfc6ec7b6dade13);
+        
+
+        marker_fcc40a331fb856ec8a46a85b70b7fe9b.bindPopup(popup_04a12730db3f8d9099b4284fb97e4d71)
+        ;
+
+        
+    
+    
+            var marker_f567d132b5601e21cb8277f4ea5b2de9 = L.marker(
+                [-37.2667, 174.9506],
+                {}
+            ).addTo(map_2b0948805ed3b83375437ed903293667);
+        
+    
+        var popup_17f70c966353f6a24a2d34b8994bdb80 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_edfed9bd7c9b9d018547ee659db4546f = $(`<div id="html_edfed9bd7c9b9d018547ee659db4546f" style="width: 100.0%; height: 100.0%;">Tuakau College</div>`)[0];
+            popup_17f70c966353f6a24a2d34b8994bdb80.setContent(html_edfed9bd7c9b9d018547ee659db4546f);
+        
+
+        marker_f567d132b5601e21cb8277f4ea5b2de9.bindPopup(popup_17f70c966353f6a24a2d34b8994bdb80)
+        ;
+
+        
+    
+    
+            var marker_5452c847e47b0c67e9384038848d4408 = L.marker(
+                [-37.2021, 174.9055],
+                {}
+            ).addTo(map_2b0948805ed3b83375437ed903293667);
+        
+    
+        var popup_7732d18ee4e81c9858ddbc6d400b979f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0fe08327ae5c340a9434de590333e8f3 = $(`<div id="html_0fe08327ae5c340a9434de590333e8f3" style="width: 100.0%; height: 100.0%;">Pukekohe High School</div>`)[0];
+            popup_7732d18ee4e81c9858ddbc6d400b979f.setContent(html_0fe08327ae5c340a9434de590333e8f3);
+        
+
+        marker_5452c847e47b0c67e9384038848d4408.bindPopup(popup_7732d18ee4e81c9858ddbc6d400b979f)
+        ;
+
+        
+    
+    
+            var marker_f025295882f37179f2e1d625fa5b9fb2 = L.marker(
+                [-37.35, 174.9],
+                {}
+            ).addTo(map_2b0948805ed3b83375437ed903293667);
+        
+    
+        var popup_5f1bf414a2164128e399b677397360e8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0f0b9229129af98c72549c85bf861143 = $(`<div id="html_0f0b9229129af98c72549c85bf861143" style="width: 100.0%; height: 100.0%;">Onewhero Area School</div>`)[0];
+            popup_5f1bf414a2164128e399b677397360e8.setContent(html_0f0b9229129af98c72549c85bf861143);
+        
+
+        marker_f025295882f37179f2e1d625fa5b9fb2.bindPopup(popup_5f1bf414a2164128e399b677397360e8)
+        ;
+
+        
+    
+    
+            var marker_51daf785b810bad1590c621c2ffb8436 = L.marker(
+                [-37.0597, 174.9434],
+                {}
+            ).addTo(map_2b0948805ed3b83375437ed903293667);
+        
+    
+        var popup_47f2cc86dd46d58190c0a5e33ee1d8de = L.popup({"maxWidth": "100%"});
+
+        
+            var html_be7cd099cf24ae8a1e09966f99b2a628 = $(`<div id="html_be7cd099cf24ae8a1e09966f99b2a628" style="width: 100.0%; height: 100.0%;">Rosehill College</div>`)[0];
+            popup_47f2cc86dd46d58190c0a5e33ee1d8de.setContent(html_be7cd099cf24ae8a1e09966f99b2a628);
+        
+
+        marker_51daf785b810bad1590c621c2ffb8436.bindPopup(popup_47f2cc86dd46d58190c0a5e33ee1d8de)
+        ;
+
+        
+    
+    
+            var marker_854a4fe26361ed9b0fffc5d8537e521e = L.marker(
+                [-37.0723, 174.9311],
+                {}
+            ).addTo(map_2b0948805ed3b83375437ed903293667);
+        
+    
+        var popup_7f63d5e7957525e5b0e01eed67bd9643 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2a7dddafc3bcafab5f49060446eb5188 = $(`<div id="html_2a7dddafc3bcafab5f49060446eb5188" style="width: 100.0%; height: 100.0%;">Papakura High School</div>`)[0];
+            popup_7f63d5e7957525e5b0e01eed67bd9643.setContent(html_2a7dddafc3bcafab5f49060446eb5188);
+        
+
+        marker_854a4fe26361ed9b0fffc5d8537e521e.bindPopup(popup_7f63d5e7957525e5b0e01eed67bd9643)
+        ;
+
+        
+    
+    
+            var marker_0fa9297d6cbdb90112ff70b78c12901c = L.marker(
+                [-37.1018, 174.9026],
+                {}
+            ).addTo(map_2b0948805ed3b83375437ed903293667);
+        
+    
+        var popup_4efb97cb0a8ac1e6dbb79cc32dba6579 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c4d2a3d14e34bcdc4937c90345aaa144 = $(`<div id="html_c4d2a3d14e34bcdc4937c90345aaa144" style="width: 100.0%; height: 100.0%;">St Ignatius Catholic College</div>`)[0];
+            popup_4efb97cb0a8ac1e6dbb79cc32dba6579.setContent(html_c4d2a3d14e34bcdc4937c90345aaa144);
+        
+
+        marker_0fa9297d6cbdb90112ff70b78c12901c.bindPopup(popup_4efb97cb0a8ac1e6dbb79cc32dba6579)
+        ;
+
+        
+    
+</script>
+</html>
