@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_d0f6f8a4bb83cfe103eefa69365abed8 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_d0f6f8a4bb83cfe103eefa69365abed8" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_d0f6f8a4bb83cfe103eefa69365abed8 = L.map(
+                "map_d0f6f8a4bb83cfe103eefa69365abed8",
+                {
+                    center: [-37.07, 174.94],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 11,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_d769083c0cebc568c5e66b4ce616e4a0 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_d0f6f8a4bb83cfe103eefa69365abed8);
+        
+    
+            var marker_416042777d75a7db95fd89d573e633dd = L.marker(
+                [-37.0723, 174.9311],
+                {}
+            ).addTo(map_d0f6f8a4bb83cfe103eefa69365abed8);
+        
+    
+        var popup_612f42b2e3bafe07cc01e1d8abf905dc = L.popup({"maxWidth": "100%"});
+
+        
+            var html_cae8eb3bd4a826129b8d64edaa1159ab = $(`<div id="html_cae8eb3bd4a826129b8d64edaa1159ab" style="width: 100.0%; height: 100.0%;">Papakura High School</div>`)[0];
+            popup_612f42b2e3bafe07cc01e1d8abf905dc.setContent(html_cae8eb3bd4a826129b8d64edaa1159ab);
+        
+
+        marker_416042777d75a7db95fd89d573e633dd.bindPopup(popup_612f42b2e3bafe07cc01e1d8abf905dc)
+        ;
+
+        
+    
+    
+            var marker_e0b9fc4fa9b92ffb4c622b6fa7da9d76 = L.marker(
+                [-37.0695, 174.9319],
+                {}
+            ).addTo(map_d0f6f8a4bb83cfe103eefa69365abed8);
+        
+    
+        var popup_cf05aabe1ee807d662cb2e2a65dd36ac = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6e61e148d2bc4d38d5ac519793079228 = $(`<div id="html_6e61e148d2bc4d38d5ac519793079228" style="width: 100.0%; height: 100.0%;">Papakura Intermediate</div>`)[0];
+            popup_cf05aabe1ee807d662cb2e2a65dd36ac.setContent(html_6e61e148d2bc4d38d5ac519793079228);
+        
+
+        marker_e0b9fc4fa9b92ffb4c622b6fa7da9d76.bindPopup(popup_cf05aabe1ee807d662cb2e2a65dd36ac)
+        ;
+
+        
+    
+    
+            var marker_6d2d1562691766b0052666c875ffdfc9 = L.marker(
+                [-37.0639, 174.9444],
+                {}
+            ).addTo(map_d0f6f8a4bb83cfe103eefa69365abed8);
+        
+    
+        var popup_6552ab252085696b38ea33cf2f6414f7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9de3784b1397ebe58fcfa33f5f0fba4f = $(`<div id="html_9de3784b1397ebe58fcfa33f5f0fba4f" style="width: 100.0%; height: 100.0%;">Papakura Central School</div>`)[0];
+            popup_6552ab252085696b38ea33cf2f6414f7.setContent(html_9de3784b1397ebe58fcfa33f5f0fba4f);
+        
+
+        marker_6d2d1562691766b0052666c875ffdfc9.bindPopup(popup_6552ab252085696b38ea33cf2f6414f7)
+        ;
+
+        
+    
+    
+            var marker_8975bc1d4e55dc395b4f900d91a781ad = L.marker(
+                [-37.0597, 174.9434],
+                {}
+            ).addTo(map_d0f6f8a4bb83cfe103eefa69365abed8);
+        
+    
+        var popup_1322cd3b1f469eef7e08587fa9e00546 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5e12c933fa56ba2f4e59ed05015a2738 = $(`<div id="html_5e12c933fa56ba2f4e59ed05015a2738" style="width: 100.0%; height: 100.0%;">Rosehill College</div>`)[0];
+            popup_1322cd3b1f469eef7e08587fa9e00546.setContent(html_5e12c933fa56ba2f4e59ed05015a2738);
+        
+
+        marker_8975bc1d4e55dc395b4f900d91a781ad.bindPopup(popup_1322cd3b1f469eef7e08587fa9e00546)
+        ;
+
+        
+    
+    
+            var marker_3020e3f5cf4f44e74fb14446751c2e5d = L.marker(
+                [-37.0592, 174.9473],
+                {}
+            ).addTo(map_d0f6f8a4bb83cfe103eefa69365abed8);
+        
+    
+        var popup_c0d7e887fdd7204c0fe92b351ba4fbdf = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a50bed6ca3acb35c2040e23ce84a2dfc = $(`<div id="html_a50bed6ca3acb35c2040e23ce84a2dfc" style="width: 100.0%; height: 100.0%;">Rosehill Intermediate</div>`)[0];
+            popup_c0d7e887fdd7204c0fe92b351ba4fbdf.setContent(html_a50bed6ca3acb35c2040e23ce84a2dfc);
+        
+
+        marker_3020e3f5cf4f44e74fb14446751c2e5d.bindPopup(popup_c0d7e887fdd7204c0fe92b351ba4fbdf)
+        ;
+
+        
+    
+    
+            var marker_4dabfa89e4aea28020b8fac3fc52d353 = L.marker(
+                [-37.071, 174.9442],
+                {}
+            ).addTo(map_d0f6f8a4bb83cfe103eefa69365abed8);
+        
+    
+        var popup_4a14c21c4f644cf3a6ca8832d1e11690 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_384e49fd3190852a3336921c9d94d486 = $(`<div id="html_384e49fd3190852a3336921c9d94d486" style="width: 100.0%; height: 100.0%;">Kelvin Road School</div>`)[0];
+            popup_4a14c21c4f644cf3a6ca8832d1e11690.setContent(html_384e49fd3190852a3336921c9d94d486);
+        
+
+        marker_4dabfa89e4aea28020b8fac3fc52d353.bindPopup(popup_4a14c21c4f644cf3a6ca8832d1e11690)
+        ;
+
+        
+    
+    
+            var marker_e1a720b6d445c7c87f2be05da2ff8238 = L.marker(
+                [-37.0763, 174.9347],
+                {}
+            ).addTo(map_d0f6f8a4bb83cfe103eefa69365abed8);
+        
+    
+        var popup_bbc589fdac89aa6c396e3ab4b583802b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_73f5b31c30faf7858d4c055aeaef5132 = $(`<div id="html_73f5b31c30faf7858d4c055aeaef5132" style="width: 100.0%; height: 100.0%;">Redhill School</div>`)[0];
+            popup_bbc589fdac89aa6c396e3ab4b583802b.setContent(html_73f5b31c30faf7858d4c055aeaef5132);
+        
+
+        marker_e1a720b6d445c7c87f2be05da2ff8238.bindPopup(popup_bbc589fdac89aa6c396e3ab4b583802b)
+        ;
+
+        
+    
+    
+            var marker_e66b2e25899644f8344643493775ef37 = L.marker(
+                [-37.0678, 174.9473],
+                {}
+            ).addTo(map_d0f6f8a4bb83cfe103eefa69365abed8);
+        
+    
+        var popup_b2440898d12a237404570a377bfdac11 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3a82e49d505e7b8eee0ece09b717bc55 = $(`<div id="html_3a82e49d505e7b8eee0ece09b717bc55" style="width: 100.0%; height: 100.0%;">Cosgrove School</div>`)[0];
+            popup_b2440898d12a237404570a377bfdac11.setContent(html_3a82e49d505e7b8eee0ece09b717bc55);
+        
+
+        marker_e66b2e25899644f8344643493775ef37.bindPopup(popup_b2440898d12a237404570a377bfdac11)
+        ;
+
+        
+    
+    
+            var marker_6bc3d5d0548162d7f71ca40137c99d08 = L.marker(
+                [-37.0647, 174.9404],
+                {}
+            ).addTo(map_d0f6f8a4bb83cfe103eefa69365abed8);
+        
+    
+        var popup_0130696981a42e312c875359605d4659 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_99a6054b13b1bdefca18d9b6d14d0a4b = $(`<div id="html_99a6054b13b1bdefca18d9b6d14d0a4b" style="width: 100.0%; height: 100.0%;">Opaheke School</div>`)[0];
+            popup_0130696981a42e312c875359605d4659.setContent(html_99a6054b13b1bdefca18d9b6d14d0a4b);
+        
+
+        marker_6bc3d5d0548162d7f71ca40137c99d08.bindPopup(popup_0130696981a42e312c875359605d4659)
+        ;
+
+        
+    
+    
+            var marker_5f4a6b2317e79c474b334d93a20ab22d = L.marker(
+                [-37.0689, 174.9186],
+                {}
+            ).addTo(map_d0f6f8a4bb83cfe103eefa69365abed8);
+        
+    
+        var popup_fecde832575d1f648122ad4a6caf7a9d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8f61f769184e75c884876539b6484ad2 = $(`<div id="html_8f61f769184e75c884876539b6484ad2" style="width: 100.0%; height: 100.0%;">Papakura Normal School</div>`)[0];
+            popup_fecde832575d1f648122ad4a6caf7a9d.setContent(html_8f61f769184e75c884876539b6484ad2);
+        
+
+        marker_5f4a6b2317e79c474b334d93a20ab22d.bindPopup(popup_fecde832575d1f648122ad4a6caf7a9d)
+        ;
+
+        
+    
+    
+            var marker_19239700e9f97dfa2aab7bc3e932713f = L.marker(
+                [-37.0717, 174.9141],
+                {}
+            ).addTo(map_d0f6f8a4bb83cfe103eefa69365abed8);
+        
+    
+        var popup_37579bbf7c0e44e7a3241a7141cd6d8e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b21878ee8b5ba2578ef21b3113f52ef4 = $(`<div id="html_b21878ee8b5ba2578ef21b3113f52ef4" style="width: 100.0%; height: 100.0%;">Kereru Park Campus</div>`)[0];
+            popup_37579bbf7c0e44e7a3241a7141cd6d8e.setContent(html_b21878ee8b5ba2578ef21b3113f52ef4);
+        
+
+        marker_19239700e9f97dfa2aab7bc3e932713f.bindPopup(popup_37579bbf7c0e44e7a3241a7141cd6d8e)
+        ;
+
+        
+    
+    
+            var marker_139982fbd6dfd904011181c22cfe7cd9 = L.marker(
+                [-37.0674, 174.926],
+                {}
+            ).addTo(map_d0f6f8a4bb83cfe103eefa69365abed8);
+        
+    
+        var popup_d3aabc7742899e2f119b4ab3411110d0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ddb23ce57298c96091f34daae9b221b9 = $(`<div id="html_ddb23ce57298c96091f34daae9b221b9" style="width: 100.0%; height: 100.0%;">Edmund Hillary School</div>`)[0];
+            popup_d3aabc7742899e2f119b4ab3411110d0.setContent(html_ddb23ce57298c96091f34daae9b221b9);
+        
+
+        marker_139982fbd6dfd904011181c22cfe7cd9.bindPopup(popup_d3aabc7742899e2f119b4ab3411110d0)
+        ;
+
+        
+    
+    
+            var marker_c2f5617f4d5720c41ab0ab12fad97ee7 = L.marker(
+                [-37.0622, 174.9435],
+                {}
+            ).addTo(map_d0f6f8a4bb83cfe103eefa69365abed8);
+        
+    
+        var popup_2ec3e89f103aaa65ec8a35ab0c80b0f0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_eaeb13363cd0e977762a6602a94084d3 = $(`<div id="html_eaeb13363cd0e977762a6602a94084d3" style="width: 100.0%; height: 100.0%;">St Mary's Catholic School (Papakura)</div>`)[0];
+            popup_2ec3e89f103aaa65ec8a35ab0c80b0f0.setContent(html_eaeb13363cd0e977762a6602a94084d3);
+        
+
+        marker_c2f5617f4d5720c41ab0ab12fad97ee7.bindPopup(popup_2ec3e89f103aaa65ec8a35ab0c80b0f0)
+        ;
+
+        
+    
+    
+            var marker_88618dfb1e29728ead61d57015d3d841 = L.marker(
+                [-37.0404, 174.9445],
+                {}
+            ).addTo(map_d0f6f8a4bb83cfe103eefa69365abed8);
+        
+    
+        var popup_ae32329580887a99e7a9107fe1fb8025 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6e327127a06b991e86b6470d97581ffa = $(`<div id="html_6e327127a06b991e86b6470d97581ffa" style="width: 100.0%; height: 100.0%;">Ardmore School</div>`)[0];
+            popup_ae32329580887a99e7a9107fe1fb8025.setContent(html_6e327127a06b991e86b6470d97581ffa);
+        
+
+        marker_88618dfb1e29728ead61d57015d3d841.bindPopup(popup_ae32329580887a99e7a9107fe1fb8025)
+        ;
+
+        
+    
+    
+            var marker_1979fb222d65536ecac2f463ef39f6b1 = L.marker(
+                [-37.0339, 175.0398],
+                {}
+            ).addTo(map_d0f6f8a4bb83cfe103eefa69365abed8);
+        
+    
+        var popup_414f286fde6cea8992d14391faaf5cc6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_29d3bc8feea34a2bcb858c76a31fbe79 = $(`<div id="html_29d3bc8feea34a2bcb858c76a31fbe79" style="width: 100.0%; height: 100.0%;">Clevedon School</div>`)[0];
+            popup_414f286fde6cea8992d14391faaf5cc6.setContent(html_29d3bc8feea34a2bcb858c76a31fbe79);
+        
+
+        marker_1979fb222d65536ecac2f463ef39f6b1.bindPopup(popup_414f286fde6cea8992d14391faaf5cc6)
+        ;
+
+        
+    
+    
+            var marker_b3114bc61c45b64aded8f3c435da7329 = L.marker(
+                [-37.0971, 175.063],
+                {}
+            ).addTo(map_d0f6f8a4bb83cfe103eefa69365abed8);
+        
+    
+        var popup_5d7f6098de33c8f0817b5bd5706e6507 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1343552464b0413eea1ed1e92ecc8059 = $(`<div id="html_1343552464b0413eea1ed1e92ecc8059" style="width: 100.0%; height: 100.0%;">Hunua School</div>`)[0];
+            popup_5d7f6098de33c8f0817b5bd5706e6507.setContent(html_1343552464b0413eea1ed1e92ecc8059);
+        
+
+        marker_b3114bc61c45b64aded8f3c435da7329.bindPopup(popup_5d7f6098de33c8f0817b5bd5706e6507)
+        ;
+
+        
+    
+    
+            var marker_b59f5b68ad329d36f315e1ab7a0c3af4 = L.marker(
+                [-37.051, 175.2438],
+                {}
+            ).addTo(map_d0f6f8a4bb83cfe103eefa69365abed8);
+        
+    
+        var popup_d987e1fc3a426a0588c3af1d52dd4bca = L.popup({"maxWidth": "100%"});
+
+        
+            var html_de0f1767052c6fa1a68cfc5366c08642 = $(`<div id="html_de0f1767052c6fa1a68cfc5366c08642" style="width: 100.0%; height: 100.0%;">Orere School</div>`)[0];
+            popup_d987e1fc3a426a0588c3af1d52dd4bca.setContent(html_de0f1767052c6fa1a68cfc5366c08642);
+        
+
+        marker_b59f5b68ad329d36f315e1ab7a0c3af4.bindPopup(popup_d987e1fc3a426a0588c3af1d52dd4bca)
+        ;
+
+        
+    
+    
+            var marker_cf3750e58906afa80d92643523831b34 = L.marker(
+                [-37.1583, 174.8944],
+                {}
+            ).addTo(map_d0f6f8a4bb83cfe103eefa69365abed8);
+        
+    
+        var popup_fc2c21af7b3f044bebc4f6cfa5f97cb3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_efdc5b8f4f52a3981e7d8c52e6fd7f9f = $(`<div id="html_efdc5b8f4f52a3981e7d8c52e6fd7f9f" style="width: 100.0%; height: 100.0%;">Te Hihi School</div>`)[0];
+            popup_fc2c21af7b3f044bebc4f6cfa5f97cb3.setContent(html_efdc5b8f4f52a3981e7d8c52e6fd7f9f);
+        
+
+        marker_cf3750e58906afa80d92643523831b34.bindPopup(popup_fc2c21af7b3f044bebc4f6cfa5f97cb3)
+        ;
+
+        
+    
+    
+            var marker_0164c3d22d6a14915d8e65779d2af03f = L.marker(
+                [-37.1085, 174.8017],
+                {}
+            ).addTo(map_d0f6f8a4bb83cfe103eefa69365abed8);
+        
+    
+        var popup_ca6f5ed8c483c32c3f4e6de5b959972a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_981fdec89e3aa2f638915226c4033686 = $(`<div id="html_981fdec89e3aa2f638915226c4033686" style="width: 100.0%; height: 100.0%;">Karaka School</div>`)[0];
+            popup_ca6f5ed8c483c32c3f4e6de5b959972a.setContent(html_981fdec89e3aa2f638915226c4033686);
+        
+
+        marker_0164c3d22d6a14915d8e65779d2af03f.bindPopup(popup_ca6f5ed8c483c32c3f4e6de5b959972a)
+        ;
+
+        
+    
+    
+            var marker_4439b9c74447aff9a2410b645cf950b6 = L.marker(
+                [-37.1587, 175.0642],
+                {}
+            ).addTo(map_d0f6f8a4bb83cfe103eefa69365abed8);
+        
+    
+        var popup_7b7f4a315727f46a58f0a071c51b5e9a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7f696afc600ae8421c05de8cb98de185 = $(`<div id="html_7f696afc600ae8421c05de8cb98de185" style="width: 100.0%; height: 100.0%;">Paparimu School</div>`)[0];
+            popup_7b7f4a315727f46a58f0a071c51b5e9a.setContent(html_7f696afc600ae8421c05de8cb98de185);
+        
+
+        marker_4439b9c74447aff9a2410b645cf950b6.bindPopup(popup_7b7f4a315727f46a58f0a071c51b5e9a)
+        ;
+
+        
+    
+</script>
+</html>

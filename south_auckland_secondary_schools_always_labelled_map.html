@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_b051c44f56485d62f80a430a8147e505 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_b051c44f56485d62f80a430a8147e505" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_b051c44f56485d62f80a430a8147e505 = L.map(
+                "map_b051c44f56485d62f80a430a8147e505",
+                {
+                    center: [-37.2, 174.9],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 11,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_63dde5109f0ff4d75de5c748d5884994 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_b051c44f56485d62f80a430a8147e505);
+        
+    
+            var marker_d1662fb291b7e8f88f9cebe63a6825f3 = L.marker(
+                [-37.2475, 174.7252],
+                {}
+            ).addTo(map_b051c44f56485d62f80a430a8147e505);
+        
+    
+            var div_icon_d3d84f0dc217ba8f39a0bba51a13fd93 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 12px; color: black;\"\u003eWaiuku College\u003c/div\u003e"});
+            marker_d1662fb291b7e8f88f9cebe63a6825f3.setIcon(div_icon_d3d84f0dc217ba8f39a0bba51a13fd93);
+        
+    
+            var marker_932bf1e8ea6220185fbcd3b5a8133ae6 = L.marker(
+                [-37.2667, 174.9506],
+                {}
+            ).addTo(map_b051c44f56485d62f80a430a8147e505);
+        
+    
+            var div_icon_3f58e03a11114a357d3d2de76e863003 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 12px; color: black;\"\u003eTuakau College\u003c/div\u003e"});
+            marker_932bf1e8ea6220185fbcd3b5a8133ae6.setIcon(div_icon_3f58e03a11114a357d3d2de76e863003);
+        
+    
+            var marker_89cea4aea22001501baf2c0b14da4dc7 = L.marker(
+                [-37.2021, 174.9055],
+                {}
+            ).addTo(map_b051c44f56485d62f80a430a8147e505);
+        
+    
+            var div_icon_99b3d4a87f7702b033649d28e69f89c3 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 12px; color: black;\"\u003ePukekohe High School\u003c/div\u003e"});
+            marker_89cea4aea22001501baf2c0b14da4dc7.setIcon(div_icon_99b3d4a87f7702b033649d28e69f89c3);
+        
+    
+            var marker_1bd9522c4ae4787169c171dcbe43bf24 = L.marker(
+                [-37.35, 174.9],
+                {}
+            ).addTo(map_b051c44f56485d62f80a430a8147e505);
+        
+    
+            var div_icon_9edbabaf571c0a1171fc4855fa16d9e7 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 12px; color: black;\"\u003eOnewhero Area School\u003c/div\u003e"});
+            marker_1bd9522c4ae4787169c171dcbe43bf24.setIcon(div_icon_9edbabaf571c0a1171fc4855fa16d9e7);
+        
+    
+            var marker_77a95449858c2e908c328dca170ecc18 = L.marker(
+                [-37.0597, 174.9434],
+                {}
+            ).addTo(map_b051c44f56485d62f80a430a8147e505);
+        
+    
+            var div_icon_97815568e2fb93da201623bc5cad182c = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 12px; color: black;\"\u003eRosehill College\u003c/div\u003e"});
+            marker_77a95449858c2e908c328dca170ecc18.setIcon(div_icon_97815568e2fb93da201623bc5cad182c);
+        
+    
+            var marker_25a7e95149abce489a0ac6bad92ef759 = L.marker(
+                [-37.0723, 174.9311],
+                {}
+            ).addTo(map_b051c44f56485d62f80a430a8147e505);
+        
+    
+            var div_icon_e0d28add29a95e5ee69faa81d9f2e4a3 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 12px; color: black;\"\u003ePapakura High School\u003c/div\u003e"});
+            marker_25a7e95149abce489a0ac6bad92ef759.setIcon(div_icon_e0d28add29a95e5ee69faa81d9f2e4a3);
+        
+    
+            var marker_d8bcf9d3637aa26ec221c7670d949e4f = L.marker(
+                [-37.0562, 174.9023],
+                {}
+            ).addTo(map_b051c44f56485d62f80a430a8147e505);
+        
+    
+            var div_icon_4983db6f67ac9cf1033651e32d53fdbf = L.divIcon({"className": "empty", "html": "\u003cdiv style=\"font-size: 12px; color: black;\"\u003eSt Ignatius Catholic College\u003c/div\u003e"});
+            marker_d8bcf9d3637aa26ec221c7670d949e4f.setIcon(div_icon_4983db6f67ac9cf1033651e32d53fdbf);
+        
+</script>
+</html>
